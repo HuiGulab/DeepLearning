@@ -14,16 +14,16 @@ Git GUI或GitHub Desktop
 
 ## 文件夹结构
 
-例
-	├── git
-	├── GuoxuSheng
-		├── Chapter2
-			├── 2预备知识.ipynb
-		├── Chapter3
-			├── 3线性神经网络.ipynb
-			······
-		├── Chapter15
-			├── 15自然语言处理.ipynb
+	例
+		├── git
+		├── GuoxuSheng
+			├── Chapter2
+				├── 2预备知识.ipynb
+			├── Chapter3
+				├── 3线性神经网络.ipynb
+				······
+			├── Chapter15
+				├── 15自然语言处理.ipynb
 
 ## 执行操作
 
