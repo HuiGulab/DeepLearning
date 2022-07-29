@@ -6,7 +6,7 @@
 
 Github账户(将用户名发给我)
 
-Git GUI或GitHub Desktop
+下载GitHub Desktop或Git GUI
 
 # 要求
 
@@ -32,9 +32,9 @@ Git GUI或GitHub Desktop
 
 常规操作指令
 
-	git add .											添加修改后的文件
-	git commit -a "commit message"						批注此次修改更新的信息
-	git push											将此次更新推送到远程仓库
+	git add .									#添加修改后的文件
+	git commit -a "commit message"				#批注此次修改更新的信息
+	git push									#将此次更新推送到远程仓库
 
 ## GitHub Desktop
 
