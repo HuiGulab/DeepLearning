@@ -1,41 +1,43 @@
 # DeepLearning
 
-���ѧϰ��ѧϰ�ʼǿ�
+深度学习的学习笔记库
 
-# ׼��
+# 准备
 
-Github�˻�(���û���������)
+Github账户(将用户名发给我)
 
-Git GUI��GitHub Desktop
+Git GUI或GitHub Desktop
 
-# Ҫ��
+# 要求
 
-��ѧϰ�½�Ϊ��λ��ͨ��Jupyter Notebook��¼ѧϰ�ʼǣ�**ÿ����**���͵�Զ�ֿ̲���
+以学习章节为单位，通过Jupyter Notebook记录学习笔记，**每周三**推送到远程仓库中
 
-## �ļ��нṹ
+## 文件夹结构
 
-��
+例
 
-	������ GuoxuSheng
-		������ Chapter2
-			������ 2Ԥ��֪ʶ.ipynb
-			������ 3����������.ipynb
-			������������
-			������ 15��Ȼ���Դ���.ipynb
+	├── GuoxuSheng
+		├── Chapter2
+			├── 2预备知识.ipynb
+			├── 3线性神经网络.ipynb
+			······
+			├── 15自然语言处理.ipynb
 
-## ִ�в���
+## 执行操作
 
-ʹ��gitָ����ȡ���ֿ�󣬲鿴���з�֧```git branch -a```��������ʾ���������л��������Լ��ķ�֧������```git checkout GuoxuSheng```����ÿ����ʱ���½ڰ����ļ��нṹ�ķ�ʽ��������µ�ǰ����ѧϰ�ʼǣ�Ȼ�����͵�Զ�ֿ̲���
+使用git指令拉取本仓库后，查看所有分支```git branch -a```并根据显示的姓名，切换到属于自己的分支，例如```git checkout GuoxuSheng```。在每周三时把章节按照文件夹结构的方式创建或更新当前正在学习笔记，然后推送到远程仓库中
 
 ## Git Bash
 
-���main��֧�л���������֧ʱ����```error: Your local changes to the following files would be overwritten by checkout:```������ִ��
+如从main分支切换到其他分支时遇到```error: Your local changes to the following files would be overwritten by checkout:```，依次执行
 
 	git add .
 	git commit -a "commit message"
 
-��main��֧�޸ĵ��ļ��ݴ浽�����������������л���֧
+将main分支修改的文件暂存到缓存区，即可正常切换分支
 
 ## GitHub Desktop
 
-��ͨ�����```current branch```�������˵��л���֧
+可通过点击```current branch```的下拉菜单切换分支
+
+---------------------------------------------
