@@ -18,5 +18,11 @@ Git GUI或GitHub Desktop
 
 	├── GuoxuSheng
 		├── Chapter2
-			├── 2.2预备知识.ipynb
-	├── README.md
+			├── 2预备知识.ipynb
+			├── 3线性神经网络.ipynb
+			······
+			├── 15自然语言处理.ipynb
+
+## 执行操作
+
+使用git指令拉取本仓库后，查看所有分支```git branch -a```并根据显示的姓名，切换到属于自己的分支，例如```git checkout GuoxuSheng```。在每周三时把章节按照文件夹结构的方式创建或更新当前正在学习笔记，然后推送到远程仓库中
