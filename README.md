@@ -18,13 +18,15 @@ Github账户(将用户名发给我)
 
 	├── git
 	├── GuoxuSheng
-		├── Chapter2
-			├── 2预备知识.ipynb
-		├── Chapter3
-			├── 3线性神经网络.ipynb
-			······
-		├── Chapter15
-			├── 15自然语言处理.ipynb
+		├── DiveIntoDeepLearning(深度学习电子书)
+			├── Chapter2
+				├── 2预备知识.ipynb
+			├── Chapter3
+				├── 3线性神经网络.ipynb
+				······
+			├── Chapter15
+				├── 15自然语言处理.ipynb
+		├── DL&ML(天池实践测试)
 
 ## 执行操作
 
