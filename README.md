@@ -10,6 +10,17 @@ Github账户(将用户名发给我)
 
 # 要求
 
+学习文档的推送和在学习过程中产生疑惑的知识点记录。此仓库不定期更新，为确保推送拉取操作不产生冲突，在上传学习笔记前先执行```git pull``` 获取***当前分支***在远程仓库更新后的状态
+
+使用git指令拉取本仓库后，切换到属于自己的分支，根据[实际使用情况进行对应的操作](https://github.com/fuqi0714/DeepLearning/blob/main/README.md##Git控制仓库的工具和部分指令)。在每周三把学习章节按照文件夹结构的方式创建或更新当前正在学习笔记，然后推送到远程仓库中。[相关说明文档](https://docs.github.com/cn)
+
+常规操作指令
+
+	添加修改后的文件 git add .									
+	批注此次修改更新的信息 git commit -a "   "							
+	将此次更新推送到远程仓库 git push									
+
+
 ## 学习任务
 
 任务一
@@ -38,23 +49,13 @@ Github账户(将用户名发给我)
 				├── 15自然语言处理.ipynb
 		├── DL&ML(天池实践测试)
 
-## 执行操作
 
-使用git指令拉取本仓库后，切换到属于自己的分支，在每周三把学习章节按照文件夹结构的方式创建或更新当前正在学习笔记，然后推送到远程仓库中。[相关说明文档](https://docs.github.com/cn)
-
-此仓库不定期更新，为确保拉取操作不产生冲突，在上传学习笔记前先执行```git pull``` 获取***当前分支***在远程仓库更新后的状态
-
-常规操作指令
-
-	添加修改后的文件 git add .									
-	批注此次修改更新的信息 git commit -a "   "							
-	将此次更新推送到远程仓库 git push									
-
-## GitHub Desktop
+## Git控制仓库的工具和部分指令
+### GitHub Desktop
 
 可通过点击```current branch```的下拉菜单切换分支
 
-## Git Bash
+### Git Bash
 
 查看所有分支```git branch -a```并根据显示的remote/origin/姓名，新建本地分支并同步远程分支。例如```git checkout -b GuoxuSheng origin/GuoxuSheng```即可
 
