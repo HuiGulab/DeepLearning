@@ -41,7 +41,7 @@ Github账户(将用户名发给我)
 
 任务内容
 
-该仓库下的isses功能区域不定时更新学习任务信息，并且指定参与成员进行任务。以深度学习电子书的章节为单位，可通过Jupyter Notebook、其他形式的```python.py``` 执行文件记录学习笔记并保存，**每周三**推送到远程仓库中
+该仓库的[projects](https://github.com/orgs/HuiGulab/projects/2)更新学习任务信息并按照要求执行，并且指定参与成员。[issues](https://github.com/HuiGulab/DeepLearning/issues)板块同步说明
 
 
 
@@ -63,6 +63,13 @@ Github账户(将用户名发给我)
 			├── Chapter15
 				├── 15自然语言处理.ipynb
 		├── DL&ML(天池实践测试)
+		├── Task(学习任务文件)
+			├── Task001-关于mediapipe卡尔曼滤波算法的问题
+				├── 关于mediapipe卡尔曼滤波算法的问题.md(解答类问题可直接在源文件上作答)
+				├── Ans
+					├── CodeFiles(相关的代码文件)
+					├── OtherFiles(其他文件，例如readme文件中插入的说明图片或其他)
+					
 
 
 ## Git控制仓库的工具和部分指令
