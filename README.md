@@ -108,6 +108,8 @@ Python常用的开发工具，其特点在于可创建多个不同版本的pytho
 ### Visual Studio
 微软IDE
 - 包含git代码管理功能
+
 ### Google Colab
+
 [谷歌云平台](https://zhuanlan.zhihu.com/p/386162610)，linux操作环境。适用于学习阶段电脑性能不佳时的替代选择
----------------------------------------------
+
