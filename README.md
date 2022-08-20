@@ -95,7 +95,7 @@ Github账户(将用户名发给我)
 
 了解以下开发工具，并根据实际情况熟练掌握一类
 ### Conda
-Python常用的开发工具，其特点在于可创建多个不同版本的python实现互相独立的多环境管理；缺点在于多个虚拟环境的创建将占用大量硬盘空间，并且当涉及其他需要额外进行编译操作的程序时，操作处理起来略微繁琐
+其特点在于可创建多个不同版本的python环境实现互相独立的多环境管理；缺点在于多个虚拟环境的创建将占用大量硬盘空间，并且当涉及其他需要额外进行编译操作的程序时，操作处理起来略微繁琐
 - [Anaconda](https://www.anaconda.com/)/[Minconda](https://docs.conda.io/en/latest/miniconda.html)，作用类似，前者相比后者集成了其他开发工具和可视化界面的操作；后者仅包括精简的命令行窗口功能
 	- [英文文档](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html)/[中文文档](https://anaconda.org.cn/anaconda/user-guide/getting-started/)
 - 包含git代码管理功能
