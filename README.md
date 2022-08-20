@@ -16,7 +16,7 @@ Github账户(将用户名发给我)
 
 此仓库不定期更新，为确保推送拉取操作不产生冲突，在上传学习笔记前先执行```git pull``` 获取***当前分支***在远程仓库更新后的状态
 
-使用git指令拉取本仓库后，切换到属于自己的分支，根据[实际使用情况进行对应的操作](#git控制仓库的工具和部分指令)。在每周三把学习章节按照文件夹结构的方式创建或更新当前正在学习笔记，然后推送到远程仓库中。[相关说明文档](https://docs.github.com/cn)
+使用git指令拉取本仓库后，切换到属于自己的分支，根据[实际使用情况进行对应的操作](#git控制仓库的工具和部分指令)
 
 常规操作指令
 
@@ -71,8 +71,11 @@ Github账户(将用户名发给我)
 					├── OtherFiles(其他文件，例如readme文件中插入的说明图片或其他)
 					
 
-
+# 开发工具
 ## Git控制仓库的工具和部分指令
+
+[相关说明文档](https://docs.github.com/cn)
+
 ### GitHub Desktop
 
 可通过点击```current branch```的下拉菜单切换分支
@@ -88,5 +91,23 @@ Github账户(将用户名发给我)
 
 将main分支修改的文件暂存到缓存区，即可正常切换分支
 
+## 常用开发工具
 
+了解以下开发工具，并根据实际情况熟练掌握一类
+### Conda
+Python常用的开发工具，其特点在于可创建多个不同版本的python实现互相独立的多环境管理；缺点在于多个虚拟环境的创建将占用大量硬盘空间，并且当涉及其他需要额外进行编译操作的程序时，操作处理起来略微繁琐
+- [Anaconda](https://www.anaconda.com/)/[Minconda](https://docs.conda.io/en/latest/miniconda.html)，作用类似，前者相比后者集成了其他开发工具和可视化界面的操作；后者仅包括精简的命令行窗口功能
+	- [英文文档](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html)/[中文文档](https://anaconda.org.cn/anaconda/user-guide/getting-started/)
+- 包含git代码管理功能
+
+
+### Pycharm
+常用的Python语言IDE
+- [说明文档](https://pycharm.iswbm.com/)
+- 包含git代码管理功能
+### Visual Studio
+微软IDE
+- 包含git代码管理功能
+### Google Colab
+[谷歌云平台](https://zhuanlan.zhihu.com/p/386162610)，linux操作环境。适用于学习阶段电脑性能不佳时的替代选择
 ---------------------------------------------
