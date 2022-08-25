@@ -54,37 +54,34 @@ Github账户(将用户名发给我)
 
 # 学习方向
 
-## 程序相关学习书籍
+程序相关学习书籍
 
 相关知识的[书籍库](https://github.com/XiangLinPro/IT_book)，根据实际需要自由学习
 
 解压密码x20200427
 
-### 基础类
+## 基础类
 
-#### [AUTOMATE THE BORING STUFF WITH PYTHON](https://automatetheboringstuff.com/2e/chapter0/)
+### [AUTOMATE THE BORING STUFF WITH PYTHON](https://automatetheboringstuff.com/2e/chapter0/)
 
 英文版书籍，根据自身实际情况对书内的知识点进行补充学习，进度可以缓慢但要求完成相关的学习任务
 
-##### 学习目的
+- 学习目的
+	- 基础数据的处理操作，UE组根据C++的特性，思考同类型问题的解决方式和设计思路
 
-基础数据的处理操作，UE组根据C++的特性，思考同类型问题的解决方式和设计思路
+- 学习任务
+	- 任务一：重点学习Chapter 1-Chapter 11的内容，Chapter 12-Chapter 20根据情况自行学习需要掌握的部分
+	- 任务二：在编程实践时，能够根据当前场景并结合任务一的学习内容，设计相对适合的数据结构和处理方式
 
-##### 学习任务
+## 算法类
 
-- 任务一：重点学习Chapter 1-Chapter 11的内容，Chapter 12-Chapter 20根据情况自行学习需要掌握的部分
+### [Deep Learning ](https://zh.d2l.ai/chapter_introduction/index.html)
 
-- 任务二：在编程实践时，能够根据当前场景并结合任务一的学习内容，设计相对适合的数据结构和处理方式
+#### 学习目的
 
-### 算法类
+#### 学习任务
 
-#### [Deep Learning ](https://zh.d2l.ai/chapter_introduction/index.html)
-
-##### 学习目的
-
-##### 学习任务
-
-### 其他类
+## 其他类
 
 
 
