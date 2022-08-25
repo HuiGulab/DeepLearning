@@ -14,6 +14,8 @@ Github账户(将用户名发给我)
 
 # 要求
 
+该仓库的[projects](https://github.com/orgs/HuiGulab/projects/2)更新学习任务信息并按照要求执行，并且指定参与成员。[issues](https://github.com/HuiGulab/DeepLearning/issues)板块同步说明
+
 此仓库不定期更新，为确保推送拉取操作不产生冲突，在上传学习笔记前先执行```git pull``` 获取***当前分支***在远程仓库更新后的状态
 
 使用git指令拉取本仓库后，切换到属于自己的分支，根据[实际使用情况进行对应的操作](#git控制仓库的工具和部分指令)
@@ -23,28 +25,6 @@ Github账户(将用户名发给我)
 	添加修改后的文件 git add .									
 	批注此次修改更新的信息 git commit -a "   "							
 	将此次更新推送到远程仓库 git push									
-
-
-
-## 学习书籍
-
-[书籍链接](https://github.com/XiangLinPro/IT_book)
-
-解压密码x20200427
-
-
-## 学习任务
-
-任务文档格式
-
-推荐学习使用[markdown格式](https://www.markdownguide.org/basic-syntax)编辑长文本，也是常见的开源程序中readme文档的书写格式
-
-任务内容
-
-该仓库的[projects](https://github.com/orgs/HuiGulab/projects/2)更新学习任务信息并按照要求执行，并且指定参与成员。[issues](https://github.com/HuiGulab/DeepLearning/issues)板块同步说明
-
-
-
 
 ## 文件夹结构
 
@@ -71,10 +51,52 @@ Github账户(将用户名发给我)
 					├── OtherFiles(其他文件，例如readme文件中插入的说明图片或其他)
 					
 
-# 开发工具
-## Git控制仓库的工具和部分指令
 
-[相关说明文档](https://docs.github.com/cn)
+# 学习方向
+
+## 程序相关学习书籍
+
+相关知识的[书籍库](https://github.com/XiangLinPro/IT_book)，根据实际需要自由学习
+
+解压密码x20200427
+
+### 基础类
+
+#### [AUTOMATE THE BORING STUFF WITH PYTHON](https://automatetheboringstuff.com/2e/chapter0/)
+
+英文版书籍，根据自身实际情况对书内的知识点进行补充学习，进度可以缓慢但要求完成相关的学习任务
+
+##### 学习目的
+
+基础数据的处理操作，UE组根据C++的特性，思考同类型问题的解决方式和设计思路
+
+##### 学习任务
+
+- 任务一：重点学习Chapter 1-Chapter 11的内容，Chapter 12-Chapter 20根据情况自行学习需要掌握的部分
+
+- 任务二：在编程实践时，能够根据当前场景并结合任务一的学习内容，设计相对适合的数据结构和处理方式
+
+### 算法类
+
+#### [Deep Learning ](https://zh.d2l.ai/chapter_introduction/index.html)
+
+##### 学习目的
+
+##### 学习任务
+
+### 其他类
+
+
+
+
+
+# 开发工具
+
+## Git
+
+### 文档格式
+
+[Git相关说明文档](https://docs.github.com/cn)，常见的开源程序内含的Readme文档常以[markdown格式](https://www.markdownguide.org/basic-syntax)编写
 
 ### GitHub Desktop
 
@@ -91,13 +113,18 @@ Github账户(将用户名发给我)
 
 将main分支修改的文件暂存到缓存区，即可正常切换分支
 
-## 常用开发工具
+## 程序开发工具
 
 了解以下开发工具，并根据实际情况熟练掌握一类
+
 ### Conda
+
 其特点在于可创建多个不同版本的python环境实现互相独立的多环境管理；缺点在于多个虚拟环境的创建将占用大量硬盘空间，并且当涉及其他需要额外进行编译操作的程序时，操作处理起来略微繁琐
+
 - [Anaconda](https://www.anaconda.com/)/[Minconda](https://docs.conda.io/en/latest/miniconda.html)，作用类似，前者相比后者集成了其他开发工具和可视化界面的操作；后者仅包括精简的命令行窗口功能
+
 	- [英文文档](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html)/[中文文档](https://anaconda.org.cn/anaconda/user-guide/getting-started/)
+
 - 包含git代码管理功能
 
 Conda移植虚拟环境到其他设备的[操作方法](https://blog.csdn.net/buweifeng/article/details/124733123?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1-124733123-blog-115385868.t0_layer_searchtargeting_sa&spm=1001.2101.3001.4242.2&utm_relevant_index=3)
@@ -105,7 +132,7 @@ Conda移植虚拟环境到其他设备的[操作方法](https://blog.csdn.net/bu
 	#安装打包资源库
 	conda install -c conda-forge conda-pack
 	#当前虚拟环境导出包
-	conda pack -n anaconda3
+	conda pack -n env_name
 	#登陆需要安装环境的机器
 	cd yourpath
 	# 解压
@@ -117,11 +144,17 @@ Conda移植虚拟环境到其他设备的[操作方法](https://blog.csdn.net/bu
 
 
 ### Pycharm
+
 常用的Python语言IDE
+
 - [说明文档](https://pycharm.iswbm.com/)
+
 - 包含git代码管理功能
+
 ### Visual Studio
+
 微软IDE
+
 - 包含git代码管理功能
 
 ### Google Colab
