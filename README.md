@@ -77,9 +77,9 @@ Github账户(将用户名发给我)
 
 ### [Deep Learning ](https://zh.d2l.ai/chapter_introduction/index.html)
 
-#### 学习目的
+- 学习目的
 
-#### 学习任务
+- 学习任务
 
 ## 其他类
 
