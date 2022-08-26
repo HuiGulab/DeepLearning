@@ -80,6 +80,7 @@ Github账户(将用户名发给我)
 本书结合Pytorch文档同步学习，Pytorch文档内含深度学习的部分理论和模型结构示例，包括计算机视觉、对抗生成和语音处理等方向
 
 [英文文档](https://pytorch.org/tutorials/)和[Python API文档](https://pytorch.org/docs/stable/index.html)
+
 [中文文档](https://www.w3cschool.cn/pytorch/pytorch-oraf3bbx.html)
 
 - 学习目的
