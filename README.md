@@ -70,12 +70,17 @@ Github账户(将用户名发给我)
 	- 基础数据的处理操作，UE组根据C++的特性，思考同类型问题的解决方式和设计思路
 
 - 学习任务
-	- 任务一：重点学习Chapter 1-Chapter 11的内容，Chapter 12-Chapter 20根据情况自行学习需要掌握的部分
+	- 任务一：熟练掌握Chapter 1-Chapter 11的内容，Chapter 12-Chapter 20根据情况自行学习需要掌握的部分
 	- 任务二：在编程实践时，能够根据当前场景并结合任务一的学习内容，设计相对适合的数据结构和处理方式
 
 ## 算法类
 
 ### [Deep Learning ](https://zh.d2l.ai/chapter_introduction/index.html)
+
+本书结合Pytorch文档同步学习，Pytorch文档内含深度学习的部分理论和模型结构示例，包括计算机视觉、对抗生成和语音处理等方向
+
+[英文文档](https://pytorch.org/tutorials/)和[Python API文档](https://pytorch.org/docs/stable/index.html)
+[中文文档](https://www.w3cschool.cn/pytorch/pytorch-oraf3bbx.html)
 
 - 学习目的
 
