@@ -87,7 +87,16 @@ Github账户(将用户名发给我)
 
 - 学习任务
 
-## 其他类
+## 方向延伸
+
+### [智能语音交互](https://github.com/NCUArtificial-IntelligenceLab/VoiceLearning)
+
+### [人体姿态估计](https://github.com/NCUArtificial-IntelligenceLab/HumanPoseEstimation)
+
+
+### [生成对抗](https://github.com/NCUArtificial-IntelligenceLab/GANLearning)
+
+### [神经辐射场]()
 
 
 
